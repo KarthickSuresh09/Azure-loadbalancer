@@ -35,4 +35,11 @@ Step9 : go to inbound rules and create a inbound rules
             > enter the interval seconds and save it
         * Add inbound NAT rule 
             > enter the name of inbound NAT rule
-            > 
+            > enter the type "i chosed backend pool"
+            > chose target the backend pool "i chosed pool2"
+            > chose the frontend IP address
+            > enter Frontend port range start "i chosed 81"
+            > enter the  Maximum number of machines in backend pool "i have 2 machines"
+            > enter the Backend port number "i entered 80"
+
+click the button review + button now 
