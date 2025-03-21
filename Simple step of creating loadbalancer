@@ -1,0 +1,38 @@
+Step1 : chose your subscribation & resource group
+
+step2 : You may now provide the load balancer's name.
+
+Step3 : selected the load balancer's regin
+
+Step4 : select the SKU
+
+Step5 : selcet the type loadbalancer public or interal
+
+step6 : selcet the tier loadbalancer Regional or Global
+
+Step7 : create Frontend IP configuration 
+        * enter the name of loadbalncer
+        * chose IP version ipv4 OR ipv6
+        * create public IP addrees for loadbalancer
+
+Step8 : create the Backend pools 
+        * enter the backend pools name
+        * chose your virtual network
+        * click on the IP configuration
+        * Now you chose you VM for loadbalancer add and save it
+
+Step9 : go to inbound rules and create a inbound rules
+        * Add loadbalancing rule 
+        * enter the name balance rule name
+        * select the forntend IP address
+        * select the backend pool
+        * enter your port no like "80, 443 & 22"
+        * enter your backend port no like "80, 443 & 22"
+        * create Health probe
+            > enter the name health probe
+            > chose your protocal
+            > enter your port number
+            > enter the interval seconds and save it
+        * Add inbound NAT rule 
+            > enter the name of inbound NAT rule
+            > 
