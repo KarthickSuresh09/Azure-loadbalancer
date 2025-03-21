@@ -42,4 +42,6 @@ Step9 : go to inbound rules and create a inbound rules
             > enter the  Maximum number of machines in backend pool "i have 2 machines"
             > enter the Backend port number "i entered 80"
 
-click the button review + button now 
+Step10 : click the button review + button now 
+
+step11 : click settings button and enter the frontend ip configuration and you will see the loadbalancer ip address 
